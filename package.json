@@ -1,0 +1,8 @@
+{
+  "name": "app",
+  "private": "true",
+  "dependencies": {
+    "jquery": "^3.6.3",
+    "turbolinks": "^5.2.0"
+  }
+}

@@ -20,6 +20,8 @@
 <% end %>
 
 <% repeater :repeater do |project| %>
+
   <%= project.content.html :line %>
   <%= project.content.image_tag :image, resize_to_fill: [50, 50] %>
+  
 <% end %>
